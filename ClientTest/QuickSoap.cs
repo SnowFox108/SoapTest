@@ -31,7 +31,7 @@ namespace ClientTest
                                     $"</Contact>" +
                                     $"</Contacts>" +
                                     $"<IATA_Number>91210092</IATA_Number>" +
-                                    $"<AgencyID>bse568jeq7btmrevdk52rw2u</AgencyID>" +
+                                    $"<AgencyID>f96fe4th2dt45kd2m43ayktx</AgencyID>" +
                                     $"</TravelAgencySender>" +
                                     $"</Sender>" +
                                     $"<Participants>" +
@@ -66,7 +66,7 @@ namespace ClientTest
             HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(@"https://test.api.ba.com/selling-distribution/AirShopping/V2");
             webRequest.Headers.Add(@"SOAP:Action");
             webRequest.ContentType = "text/xml;charset=\"utf-8\"";
-            webRequest.Headers.Add("client-key", "bse568jeq7btmrevdk52rw2u");
+            webRequest.Headers.Add("client-key", "f96fe4th2dt45kd2m43ayktx");
             webRequest.Accept = "text/xml";
             webRequest.Method = "POST";
             return webRequest;
