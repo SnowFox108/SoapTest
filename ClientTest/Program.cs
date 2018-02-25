@@ -10,7 +10,8 @@ namespace ClientTest
     {
         static void Main(string[] args)
         {
-            new QuickSoap();
+            //new QuickSoap();
+            new Test();
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
