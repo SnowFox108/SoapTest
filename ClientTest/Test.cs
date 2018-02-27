@@ -11,7 +11,7 @@ namespace ClientTest
     {
         public Test()
         {
-            var result = compute("banana");
+            var result = compute("banaba");
             Console.WriteLine(result);
             //compute(3, 7);
         }
@@ -44,7 +44,6 @@ namespace ClientTest
             Array.Sort(array);
 
             List<char> uniqueChars = new List<char> { array[0] };
-
 
             List<string> results = new List<string>();
             for (int i = 1; i < array.Length; i++)

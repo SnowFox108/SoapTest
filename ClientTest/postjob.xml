@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Party>
+  <Sender>
+    <TravelAgencySender>
+      <Name>Testing for developement</Name>
+      <Contacts>
+        <Contact>
+          <EmailContact>
+            <Address>agentemailaddress@abc.com</Address>
+          </EmailContact>
+        </Contact>
+      </Contacts>
+      <IATA_Number>91210092</IATA_Number>
+      <AgencyID>f96fe4th2dt45kd2m43ayktx</AgencyID>
+    </TravelAgencySender>
+  </Sender>
+  <Participants>
+    <Participant>
+      <AggregatorParticipant SequenceNumber="123">
+        <Name>Travelco</Name>
+        <AggregatorID>00123456</AggregatorID>
+      </AggregatorParticipant>
+    </Participant>
+  </Participants>
+</Party>
