@@ -54,6 +54,14 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="ConnectionTest.cs" />
+    <Compile Include="Entities\AggregatorParticipant.cs" />
+    <Compile Include="Entities\Contact.cs" />
+    <Compile Include="Entities\EmailContact.cs" />
+    <Compile Include="Entities\Participant.cs" />
+    <Compile Include="Entities\Party.cs" />
+    <Compile Include="Entities\Sender.cs" />
+    <Compile Include="Entities\TravelAgencySender.cs" />
+    <Compile Include="SearchDto.cs" />
     <Compile Include="XmlFlieLoader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,6 +69,7 @@
     <Compile Include="TcpClient.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="WdlSoap.cs" />
+    <Compile Include="XmlObjectLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
