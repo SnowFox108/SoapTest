@@ -11,9 +11,9 @@ namespace ClientTest
     {
         public Test()
         {
-           //var result = compute("ba");
-            //Console.WriteLine(result);
-            compute(3, 7);
+            var result = compute("banana");
+            Console.WriteLine(result);
+            //compute(3, 7);
         }
 
         private void compute(int l, int r)
@@ -43,7 +43,7 @@ namespace ClientTest
             var array = s.ToCharArray();
             Array.Sort(array);
 
-            List<char> uniqueChars = new List<char> {array[0]};
+            List<char> uniqueChars = new List<char> { array[0] };
 
 
             List<string> results = new List<string>();
@@ -51,18 +51,29 @@ namespace ClientTest
             {
                 if (array[i - 1] != array[i])
                 {
-                    foreach (var uniqueChar in uniqueChars)
-                    {
-                        var startPoint = s.IndexOf(uniqueChar);
-                        for (int j = 0; j < s.Length - startPoint; j++)
-                            results.Add(s.Substring(startPoint, j + 1));
-                    }
-
+                    uniqueChars.Add(array[i]);
                 }
             }
 
-
-
+            foreach (var uniqueChar in uniqueChars)
+            {
+                var startIndex = 0;
+                var tempList = new List<string>();
+                while (s.IndexOf(uniqueChar, startIndex) != -1)
+                {
+                    startIndex = s.IndexOf(uniqueChar, startIndex);
+                    for (int i = 0; i < s.Length - startIndex; i++)
+                    {
+                        var item = s.Substring(startIndex, i + 1);
+                        if (tempList.IndexOf(item) == -1)
+                        {
+                            tempList.Add(item);
+                            results.Add(item);
+                        }
+                    }
+                    startIndex++;
+                }
+            }
             return results.Last();
         }
 
