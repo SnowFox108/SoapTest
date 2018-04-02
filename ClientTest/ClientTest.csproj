@@ -48,6 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Xml\AirShopping_Corporate_TMC.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Compile Include="Connected Services\MySellingService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -70,6 +74,9 @@
     <Compile Include="Test.cs" />
     <Compile Include="WdlSoap.cs" />
     <Compile Include="XmlObjectLoader.cs" />
+    <Content Include="Xml\Post_Ba_NDC_Services.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -98,6 +105,9 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\MySellingService\V2.wsdl" />
+    <None Include="edist_commontypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -119,7 +129,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="postjob.xml">
+    <Content Include="Xml\AirShopping_Non_IATA_Agent.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\postjob.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

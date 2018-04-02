@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Party>
+  <Sender>
+    <TravelAgencySender>
+      <Name>ABC</Name>
+      <Contacts>
+        <Contact>
+          <EmailContact>
+            <Address>agentemailaddress@abc.com</Address>
+          </EmailContact>
+        </Contact>
+      </Contacts>
+      <OtherIDs>
+        <OtherID>0000007</OtherID>
+      </OtherIDs>
+      <AgencyID>f96fe4th2dt45kd2m43ayktx</AgencyID>
+    </TravelAgencySender>
+  </Sender>
+  <Participants>
+    <Participant>
+      <AggregatorParticipant SequenceNumber="123">
+        <Name>Travelco</Name>
+        <AggregatorID> Travelco </AggregatorID>
+      </AggregatorParticipant>
+    </Participant>
+  </Participants>
+</Party>
