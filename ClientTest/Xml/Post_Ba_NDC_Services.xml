@@ -19,8 +19,8 @@
   <Participants>
     <Participant>
       <AggregatorParticipant SequenceNumber="123">
-        <Name>Travelco</Name>
-        <AggregatorID> Travelco </AggregatorID>
+        <Name>TravelCentre</Name>
+        <AggregatorID>TravelCentre</AggregatorID>
       </AggregatorParticipant>
     </Participant>
   </Participants>

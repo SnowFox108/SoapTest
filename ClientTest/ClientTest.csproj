@@ -74,6 +74,9 @@
     <Compile Include="Test.cs" />
     <Compile Include="WdlSoap.cs" />
     <Compile Include="XmlObjectLoader.cs" />
+    <Content Include="Xml\Post_Ba_NDC_Services_New.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Xml\Post_Ba_NDC_Services.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

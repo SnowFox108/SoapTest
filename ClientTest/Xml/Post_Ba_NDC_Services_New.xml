@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Party>
+  <Sender>
+    <TravelAgencySender>
+      <Name>Travel Centre Clapham</Name>
+      <IATA_Number>91210092</IATA_Number>
+      <AgencyID> Travel Centre Clapham Limited </AgencyID>
+    </TravelAgencySender>
+  </Sender>
+</Party>
