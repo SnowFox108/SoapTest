@@ -43,10 +43,13 @@ namespace ClientTest
 
         private HttpWebRequest CreateWebRequest()
         {
-            HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(@"https://test.api.ba.com/selling-distribution/AirShopping/V2");
+            //var url = @"https://test.api.ba.com/selling-distribution/AirShopping/V1";
+            var url = @"https://test.api.ba.com/selling-distribution/AirShopping/V2";
+            HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
             webRequest.Headers.Add(@"SOAP:Action");
             webRequest.ContentType = "text/xml;charset=\"utf-8\"";
-            webRequest.Headers.Add("client-key", "f96fe4th2dt45kd2m43ayktx");
+            webRequest.Headers.Add("Client-key", "f96fe4th2dt45kd2m43ayktx");
+            webRequest.Headers.Add("SOAPAction", "AirShoppingV01");
             webRequest.Accept = "text/xml";
             webRequest.Method = "POST";
             return webRequest;
