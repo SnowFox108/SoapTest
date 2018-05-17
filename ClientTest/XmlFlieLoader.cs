@@ -44,8 +44,8 @@ namespace ClientTest
 
         private HttpWebRequest CreateWebRequest()
         {
-            //var url = @"https://test.api.ba.com/selling-distribution/AirShopping/V1";
-            var url = @"https://test.api.ba.com/selling-distribution/AirShopping/V2";
+            var url = @"https://test.api.ba.com/selling-distribution/AirShopping/V1";
+            //var url = @"https://test.api.ba.com/selling-distribution/AirShopping/V2";
             HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
             webRequest.Headers.Add(@"SOAP:Action");
             webRequest.ContentType = "text/xml;charset=\"utf-8\"";
