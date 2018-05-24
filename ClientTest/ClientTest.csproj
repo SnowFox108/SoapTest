@@ -83,25 +83,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\MySellingService\ClientTest.MySellingService.AirShoppingRS.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\MySellingService\ClientTest.MySellingService.AirShoppingRSV01.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\MySellingService\ClientTest.MySellingService.FlightPriceRS.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\MySellingService\ClientTest.MySellingService.FlightPriceRSV01.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\MySellingService\ClientTest.MySellingService.OrderViewRS.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\MySellingService\ClientTest.MySellingService.OrderViewRSV01.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\MySellingService\ClientTest.MySellingService.SeatAvailabilityRS.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\MySellingService\ClientTest.MySellingService.SeatAvailabilityRSV01.datasource">
