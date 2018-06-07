@@ -30,7 +30,7 @@ namespace ClientTest
 
 
 
-            Console.WriteLine(response);
+            //Console.WriteLine(response);
         }
     }
 }

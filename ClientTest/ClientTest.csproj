@@ -48,6 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Xml\AirShoppingRQ0strip.xml" />
+    <Content Include="Xml\AirShoppingRQ0.xml" />
+    <Content Include="Xml\AirShoppingRS1.xml" />
     <Content Include="Xml\AirShopping_Corporate_TMC.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -74,6 +77,8 @@
     <Compile Include="Test.cs" />
     <Compile Include="WdlSoap.cs" />
     <Compile Include="XmlObjectLoader.cs" />
+    <Content Include="Xml\FlighPriceRq2.xml" />
+    <Content Include="Xml\FlighPriceRS3.xml" />
     <Content Include="Xml\Post_Ba_NDC_Services_New.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

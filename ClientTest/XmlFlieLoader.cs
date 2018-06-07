@@ -14,7 +14,8 @@ namespace ClientTest
             //var path = "AirShopping_Non_IATA_Agent.xml";
             //var path = "AirShopping_Corporate_TMC.xml";
             //var path = "Xml\\Post_Ba_NDC_Services.xml";
-            var path = "Xml\\Post_Ba_NDC_Services_New.xml";
+            //var path = "Xml\\Post_Ba_NDC_Services_New.xml";
+            var path = "Xml\\AirShoppingRQ0strip.xml";
 
             var utf8 = new UTF8Encoding(false);
 
