@@ -1,0 +1,4513 @@
+﻿<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <AirShoppingRS xmlns="http://www.iata.org/IATA/EDIST" Version="16.1">
+      <Document>
+        <Name>BA</Name>
+        <ReferenceVersion>2016.1</ReferenceVersion>
+      </Document>
+      <Success/>
+      <ShoppingResponseID>
+        <ResponseID>2018-06-07T19:47:43.856Z</ResponseID>
+      </ShoppingResponseID>
+      <OffersGroup>
+        <AirlineOffers>
+          <TotalOfferQuantity>52</TotalOfferQuantity>
+          <Owner>BA</Owner>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER1</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1067.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">606.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">529.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">461.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">397.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0237">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="4">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER2</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1067.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">606.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">529.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">461.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">397.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0233">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="4">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER3</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1067.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">606.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">529.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">461.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">397.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0235">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight3</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="4">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER4</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1067.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">606.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">529.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">461.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">397.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0237">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="8">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER5</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1067.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">606.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">529.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">461.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">397.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0233">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="8">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER6</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1067.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">606.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">529.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">461.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">397.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0235">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight3</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="8">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER7</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1797.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">967.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">877.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">830.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">740.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0237">
+                    <ClassOfService refs="FBCODE3ADT">
+                      <Code SeatsLeft="2">I</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="4">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER8</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1797.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">967.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">877.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">830.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">740.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0233">
+                    <ClassOfService refs="FBCODE3ADT">
+                      <Code SeatsLeft="9">I</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="4">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER9</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1797.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">967.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">877.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">830.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">740.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0237">
+                    <ClassOfService refs="FBCODE3ADT">
+                      <Code SeatsLeft="2">I</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="8">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER10</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1797.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">967.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">877.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">830.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">740.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0233">
+                    <ClassOfService refs="FBCODE3ADT">
+                      <Code SeatsLeft="9">I</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="8">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER11</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1992.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1135.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1058.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">857.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">793.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0237">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE4ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER12</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1992.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1135.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1058.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">857.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">793.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0233">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE4ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER13</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">1992.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1135.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1058.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">857.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">793.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0235">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight3</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE4ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER14</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2257.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1282.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1174.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">975.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">880.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE5ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE6ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="4">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER15</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2257.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1282.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1174.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">975.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">880.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE5ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE6ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="8">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER16</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2257.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1282.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1174.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">975.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">880.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE5ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>Euro Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE6ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="4">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER17</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2257.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1282.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1174.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">975.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">880.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE5ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>Euro Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE6ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="8">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER18</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2404.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1314.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1224.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1090.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1000.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0235">
+                    <ClassOfService refs="FBCODE7ADT">
+                      <Code SeatsLeft="2">R</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight3</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="4">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER19</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2404.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1314.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1224.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1090.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1000.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0235">
+                    <ClassOfService refs="FBCODE7ADT">
+                      <Code SeatsLeft="2">R</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight3</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="8">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER20</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2733.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1549.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1459.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1184.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1094.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0237">
+                    <ClassOfService refs="FBCODE3ADT">
+                      <Code SeatsLeft="2">I</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE4ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER21</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2733.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1549.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1459.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1184.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1094.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0233">
+                    <ClassOfService refs="FBCODE3ADT">
+                      <Code SeatsLeft="9">I</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE4ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER22</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2787.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1564.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1487.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1223.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1159.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0237">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE8ADT">
+                      <Code SeatsLeft="9">C</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER23</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2787.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1564.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1487.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1223.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1159.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0233">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE8ADT">
+                      <Code SeatsLeft="9">C</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER24</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">2787.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1564.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1487.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1223.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1159.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0235">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight3</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE8ADT">
+                      <Code SeatsLeft="9">C</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER25</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">3183.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1811.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1703.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1372.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1277.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE5ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE6ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>PLUSFLEX</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE4ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER26</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">3183.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1811.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1703.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1372.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1277.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE5ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>Euro Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE6ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>PLUSFLEX</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE4ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER27</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">3340.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1896.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1806.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1444.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1354.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0235">
+                    <ClassOfService refs="FBCODE7ADT">
+                      <Code SeatsLeft="2">R</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight3</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE4ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER28</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">3370.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1922.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1845.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1448.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1384.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0237">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE9ADT">
+                      <Code SeatsLeft="2">J</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER29</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">3370.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1922.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1845.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1448.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1384.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0233">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE9ADT">
+                      <Code SeatsLeft="2">J</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER30</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">3370.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1922.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1845.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">77.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1448.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1384.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">64.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0235">
+                    <ClassOfService refs="FBCODE1ADT">
+                      <Code SeatsLeft="9">N</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight3</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE9ADT">
+                      <Code SeatsLeft="2">J</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER31</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">3445.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1956.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1866.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1489.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1399.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0237">
+                    <ClassOfService refs="FBCODE3ADT">
+                      <Code SeatsLeft="2">I</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE8ADT">
+                      <Code SeatsLeft="9">C</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER32</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">3445.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1956.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1866.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1489.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1399.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0233">
+                    <ClassOfService refs="FBCODE3ADT">
+                      <Code SeatsLeft="9">I</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE8ADT">
+                      <Code SeatsLeft="9">C</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER33</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4027.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2293.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2185.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1734.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1639.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE5ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE6ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE8ADT">
+                      <Code SeatsLeft="9">C</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER34</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4027.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2293.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2185.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1734.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1639.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE5ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>Euro Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE6ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE8ADT">
+                      <Code SeatsLeft="9">C</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER35</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4053.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2303.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2213.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1750.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1660.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0235">
+                    <ClassOfService refs="FBCODE7ADT">
+                      <Code SeatsLeft="2">R</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight3</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE8ADT">
+                      <Code SeatsLeft="9">C</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER36</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4110.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2336.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2246.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1774.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1684.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0237">
+                    <ClassOfService refs="FBCODE3ADT">
+                      <Code SeatsLeft="2">I</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight1</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE9ADT">
+                      <Code SeatsLeft="2">J</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER37</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4110.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2336.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2246.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1774.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1684.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0233">
+                    <ClassOfService refs="FBCODE3ADT">
+                      <Code SeatsLeft="9">I</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight2</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE9ADT">
+                      <Code SeatsLeft="2">J</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER38</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4385.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2498.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2390.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1887.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1792.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE10ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE11ADT">
+                      <Code SeatsLeft="9">B</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>PLUSFLEX</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE11ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER39</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4385.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2498.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2390.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1887.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1792.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE10ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>Euro Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE11ADT">
+                      <Code SeatsLeft="9">B</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>PLUSFLEX</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE11ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER40</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4560.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2598.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2490.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1962.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1867.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE5ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE6ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>PLUSFLEX</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE9ADT">
+                      <Code SeatsLeft="2">J</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER41</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4560.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2598.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2490.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">108.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">1962.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1867.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">95.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE5ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>Euro Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE6ADT">
+                      <Code SeatsLeft="9">Y</Code>
+                      <MarketingName>ECONOMY</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>PLUSFLEX</PriceClassReference>
+                </PriceClass>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE9ADT">
+                      <Code SeatsLeft="2">J</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER42</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4718.42</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2683.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2593.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2035.21</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1945.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">90.21</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0235">
+                    <ClassOfService refs="FBCODE7ADT">
+                      <Code SeatsLeft="2">R</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight3</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE9ADT">
+                      <Code SeatsLeft="2">J</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER43</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4904.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2785.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2664.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2119.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1998.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE12ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE13ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="4">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER44</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4904.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2785.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2664.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2119.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1998.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE12ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE13ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="8">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER45</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4904.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2785.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2664.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2119.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1998.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE12ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>Club Europe</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE13ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="4">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER46</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">4904.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2785.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2664.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2119.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">1998.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE12ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>Club Europe</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE13ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE2ADT">
+                      <Code SeatsLeft="8">K</Code>
+                      <MarketingName>World Traveller</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+                <PriceClass>
+                  <PriceClassReference>STANDARD</PriceClassReference>
+                </PriceClass>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER47</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">5830.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">3314.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">3193.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2516.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2395.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE12ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE13ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE4ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER48</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">5830.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">3314.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">3193.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2516.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2395.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE12ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>Club Europe</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE13ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE4ADT">
+                      <Code SeatsLeft="9">W</Code>
+                      <MarketingName>World Traveller Plus</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER49</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">6673.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">3796.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">3675.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2877.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2756.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE12ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE13ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE8ADT">
+                      <Code SeatsLeft="9">C</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER50</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">6673.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">3796.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">3675.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">2877.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2756.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE12ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>Club Europe</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE13ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0234">
+                    <ClassOfService refs="FBCODE8ADT">
+                      <Code SeatsLeft="9">C</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight7</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER51</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">7207.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">4101.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">3980.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">3106.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2985.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA6034">
+                    <ClassOfService refs="FBCODE12ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0719">
+                    <ClassOfService refs="FBCODE13ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight4</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE9ADT">
+                      <Code SeatsLeft="2">J</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+          <AirlineOffer RequestedDateInd="true">
+            <OfferID Owner="BA">OFFER52</OfferID>
+            <TotalPrice>
+              <SimpleCurrencyPrice Code="GBP">7207.60</SimpleCurrencyPrice>
+            </TotalPrice>
+            <PricedOffer>
+              <OfferPrice OfferItemID="1">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">4101.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">3980.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH1</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <OfferPrice OfferItemID="2">
+                <RequestedDate>
+                  <PriceDetail>
+                    <TotalAmount>
+                      <SimpleCurrencyPrice Code="GBP">3106.30</SimpleCurrencyPrice>
+                    </TotalAmount>
+                    <BaseAmount Code="GBP">2985.00</BaseAmount>
+                    <Taxes>
+                      <Total Code="GBP">121.30</Total>
+                    </Taxes>
+                  </PriceDetail>
+                  <Associations>
+                    <AssociatedTraveler>
+                      <TravelerReferences>SH2</TravelerReferences>
+                    </AssociatedTraveler>
+                  </Associations>
+                </RequestedDate>
+              </OfferPrice>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0794">
+                    <ClassOfService refs="FBCODE12ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>Club Europe</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <FlightSegmentReference ref="AY0713">
+                    <ClassOfService refs="FBCODE13ADT">
+                      <Code SeatsLeft="9">J</Code>
+                      <MarketingName>BUSINESS</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD1</OriginDestinationReferences>
+                  <FlightReferences>Flight5</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+              <Associations>
+                <ApplicableFlight>
+                  <FlightSegmentReference ref="BA0232">
+                    <ClassOfService refs="FBCODE9ADT">
+                      <Code SeatsLeft="2">J</Code>
+                      <MarketingName>Club World</MarketingName>
+                    </ClassOfService>
+                  </FlightSegmentReference>
+                  <OriginDestinationReferences>OD2</OriginDestinationReferences>
+                  <FlightReferences>Flight6</FlightReferences>
+                </ApplicableFlight>
+              </Associations>
+            </PricedOffer>
+          </AirlineOffer>
+        </AirlineOffers>
+      </OffersGroup>
+      <DataLists>
+        <AnonymousTravelerList>
+          <AnonymousTraveler ObjectKey="SH1">
+            <PTC>ADT</PTC>
+            <Age>
+              <BirthDate>1988-06-07</BirthDate>
+            </Age>
+          </AnonymousTraveler>
+          <AnonymousTraveler ObjectKey="SH2">
+            <PTC>CHD</PTC>
+            <Age>
+              <BirthDate>2013-06-07</BirthDate>
+            </Age>
+          </AnonymousTraveler>
+        </AnonymousTravelerList>
+        <DisclosureList>
+          <Disclosures ListKey="ClubEurope">
+            <Description>
+              <Text>2 x 32kg checked baggage allowance</Text>
+            </Description>
+            <Description>
+              <Text>Guaranteed window or aisle seat</Text>
+            </Description>
+            <Description>
+              <Text>Contoured leather seat with guaranteed window or aisle</Text>
+            </Description>
+            <Description>
+              <Text>Complimentary bar service including champagne upon request </Text>
+            </Description>
+            <Description>
+              <Text>Dedicated check-in area</Text>
+            </Description>
+            <Description>
+              <Text>Access to British Airways lounges where available</Text>
+            </Description>
+          </Disclosures>
+          <Disclosures ListKey="ClubWorld">
+            <Description>
+              <Text>2 x 32kg checked baggage allowance</Text>
+            </Description>
+            <Description>
+              <Text>Guaranteed window or aisle seat</Text>
+            </Description>
+            <Description>
+              <Text>Contoured leather seat with guaranteed window or aisle</Text>
+            </Description>
+            <Description>
+              <Text>Complimentary bar service including champagne upon request </Text>
+            </Description>
+            <Description>
+              <Text>Dedicated check-in area</Text>
+            </Description>
+            <Description>
+              <Text>Access to British Airways lounges where available</Text>
+            </Description>
+          </Disclosures>
+          <Disclosures ListKey="EuroTraveller">
+            <Description>
+              <Text>Hand baggage only</Text>
+            </Description>
+            <Description>
+              <Text>Allocated seats or pay to choose anytime</Text>
+            </Description>
+            <Description>
+              <Text>1 x 23kg checked baggage allowance </Text>
+            </Description>
+            <Description>
+              <Text>Free seat choice from 48 hours before departure</Text>
+            </Description>
+            <Description>
+              <Text>Contoured leather seat</Text>
+            </Description>
+            <Description>
+              <Text>M&amp;S food sold on board flights from 11 Jan 2017 on flights tofrom London Gatwick and London Heathrow (London City &amp; Stansted to follow in Summer 2017);</Text>
+            </Description>
+          </Disclosures>
+          <Disclosures ListKey="WorldTraveller">
+            <Description>
+              <Text>Hand baggage only</Text>
+            </Description>
+            <Description>
+              <Text>Allocated seats or pay to choose anytime</Text>
+            </Description>
+            <Description>
+              <Text>1 x 23kg checked baggage allowance </Text>
+            </Description>
+            <Description>
+              <Text>Free seat choice from 48 hours before departure</Text>
+            </Description>
+            <Description>
+              <Text>Contoured leather seat</Text>
+            </Description>
+            <Description>
+              <Text>M&amp;S food sold on board flights from 11 Jan 2017 on flights tofrom London Gatwick and London Heathrow (London City &amp; Stansted to follow in Summer 2017);</Text>
+            </Description>
+          </Disclosures>
+        </DisclosureList>
+        <FareList>
+          <FareGroup ListKey="FBCODE1ADT">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>NHNC00S7/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE2ADT">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>KHNC00S7/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE3ADT">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>INNC07S7/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE4ADT">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>WNNC00S1/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE5ADT">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>Y1/N</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE6ADT">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>Y1/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE7ADT">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>RNNC00S5/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE8ADT">
+            <Fare>
+              <FareCode>
+                <Code>758</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>CNNC00S5/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE9ADT">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>JNNC00S1/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE10ADT">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>W1/N</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE11ADT">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>W1/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE12ADT">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>J1/N</Code>
+            </FareBasisCode>
+          </FareGroup>
+          <FareGroup ListKey="FBCODE13ADT">
+            <Fare>
+              <FareCode>
+                <Code>70J</Code>
+              </FareCode>
+            </Fare>
+            <FareBasisCode>
+              <Code>J1/Y</Code>
+            </FareBasisCode>
+          </FareGroup>
+        </FareList>
+        <FlightSegmentList>
+          <FlightSegment SegmentKey="BA0237">
+            <Departure>
+              <AirportCode>LHR</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>22:35</Time>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>DME</AirportCode>
+              <Date>2018-06-27</Date>
+              <Time>04:20</Time>
+              <ChangeOfDay>1</ChangeOfDay>
+              <AirportName>DOMODEDOVO</AirportName>
+              <Terminal>
+                <Name></Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0237</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>321</AircraftCode>
+              <Name>Airbus A321 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT3H45M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0233">
+            <Departure>
+              <AirportCode>LHR</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>08:45</Time>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>DME</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>14:35</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>DOMODEDOVO</AirportName>
+              <Terminal>
+                <Name></Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0233</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>789</AircraftCode>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT3H50M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0235">
+            <Departure>
+              <AirportCode>LHR</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>10:55</Time>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>DME</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>16:50</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>DOMODEDOVO</AirportName>
+              <Terminal>
+                <Name></Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0235</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>321</AircraftCode>
+              <Name>Airbus A321 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT3H55M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA6034">
+            <Departure>
+              <AirportCode>LHR</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>18:05</Time>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>3</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>HEL</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>23:00</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>HELSINKI</AirportName>
+              <Terminal>
+                <Name>2</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>6034</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>AY</AirlineID>
+              <Name>Finnair</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>32B</AircraftCode>
+              <Name>Airbus A320 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT2H55M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="AY0719">
+            <Departure>
+              <AirportCode>HEL</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>23:55</Time>
+              <AirportName>HELSINKI</AirportName>
+              <Terminal>
+                <Name>2</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>SVO</AirportCode>
+              <Date>2018-06-27</Date>
+              <Time>01:35</Time>
+              <ChangeOfDay>1</ChangeOfDay>
+              <AirportName>SHEREMETYEVO</AirportName>
+              <Terminal>
+                <Name>D</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>AY</AirlineID>
+              <Name>Finnair</Name>
+              <FlightNumber>0719</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>YY</AirlineID>
+              <Name>NORDIC REGIONAL AIRLINES</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>E90</AircraftCode>
+              <Name>Embraer E190SR</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT1H40M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0794">
+            <Departure>
+              <AirportCode>LHR</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>11:25</Time>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>3</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>HEL</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>16:20</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>HELSINKI</AirportName>
+              <Terminal>
+                <Name>2</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0794</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>320</AircraftCode>
+              <Name>Airbus A320 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT2H55M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="AY0713">
+            <Departure>
+              <AirportCode>HEL</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>17:40</Time>
+              <AirportName>HELSINKI</AirportName>
+              <Terminal>
+                <Name>2</Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>SVO</AirportCode>
+              <Date>2018-06-26</Date>
+              <Time>19:20</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>SHEREMETYEVO</AirportName>
+              <Terminal>
+                <Name>D</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>AY</AirlineID>
+              <Name>Finnair</Name>
+              <FlightNumber>0713</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>YY</AirlineID>
+              <Name>NORDIC REGIONAL AIRLINES</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>E90</AircraftCode>
+              <Name>Embraer E190SR</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT1H40M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0232">
+            <Departure>
+              <AirportCode>DME</AirportCode>
+              <Date>2018-06-29</Date>
+              <Time>16:05</Time>
+              <AirportName>DOMODEDOVO</AirportName>
+              <Terminal>
+                <Name></Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LHR</AirportCode>
+              <Date>2018-06-29</Date>
+              <Time>18:00</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0232</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>789</AircraftCode>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT3H55M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+          <FlightSegment SegmentKey="BA0234">
+            <Departure>
+              <AirportCode>DME</AirportCode>
+              <Date>2018-06-29</Date>
+              <Time>18:10</Time>
+              <AirportName>DOMODEDOVO</AirportName>
+              <Terminal>
+                <Name></Name>
+              </Terminal>
+            </Departure>
+            <Arrival>
+              <AirportCode>LHR</AirportCode>
+              <Date>2018-06-29</Date>
+              <Time>20:20</Time>
+              <ChangeOfDay>0</ChangeOfDay>
+              <AirportName>HEATHROW</AirportName>
+              <Terminal>
+                <Name>5</Name>
+              </Terminal>
+            </Arrival>
+            <MarketingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+              <FlightNumber>0234</FlightNumber>
+            </MarketingCarrier>
+            <OperatingCarrier>
+              <AirlineID>BA</AirlineID>
+              <Name>British Airways</Name>
+            </OperatingCarrier>
+            <Equipment>
+              <AircraftCode>321</AircraftCode>
+              <Name>Airbus A321 jet</Name>
+            </Equipment>
+            <FlightDetail>
+              <FlightDuration>
+                <Value>PT4H10M</Value>
+              </FlightDuration>
+            </FlightDetail>
+          </FlightSegment>
+        </FlightSegmentList>
+        <FlightList>
+          <Flight FlightKey="Flight1">
+            <Journey>
+              <Time>PT3H45M</Time>
+            </Journey>
+            <SegmentReferences>BA0237</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight2">
+            <Journey>
+              <Time>PT3H50M</Time>
+            </Journey>
+            <SegmentReferences>BA0233</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight3">
+            <Journey>
+              <Time>PT3H55M</Time>
+            </Journey>
+            <SegmentReferences>BA0235</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight4">
+            <Journey>
+              <Time>PT5H30M</Time>
+            </Journey>
+            <SegmentReferences>BA6034 AY0719</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight5">
+            <Journey>
+              <Time>PT5H55M</Time>
+            </Journey>
+            <SegmentReferences>BA0794 AY0713</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight6">
+            <Journey>
+              <Time>PT3H55M</Time>
+            </Journey>
+            <SegmentReferences>BA0232</SegmentReferences>
+          </Flight>
+          <Flight FlightKey="Flight7">
+            <Journey>
+              <Time>PT4H10M</Time>
+            </Journey>
+            <SegmentReferences>BA0234</SegmentReferences>
+          </Flight>
+        </FlightList>
+        <OriginDestinationList>
+          <OriginDestination OriginDestinationKey="OD1">
+            <DepartureCode>LON</DepartureCode>
+            <ArrivalCode>MOW</ArrivalCode>
+            <FlightReferences>Flight1 Flight2 Flight3 Flight4 Flight5</FlightReferences>
+          </OriginDestination>
+          <OriginDestination OriginDestinationKey="OD2">
+            <DepartureCode>MOW</DepartureCode>
+            <ArrivalCode>LON</ArrivalCode>
+            <FlightReferences>Flight6 Flight7</FlightReferences>
+          </OriginDestination>
+        </OriginDestinationList>
+        <PriceClassList>
+          <PriceClass ObjectKey="STANDARD">
+            <Name>STANDARD</Name>
+            <Descriptions>
+              <Description>
+                <Text>1 x 23kg checked baggage allowance </Text>
+              </Description>
+              <Description>
+                <Text>Free seat choice from 48 hours before departure</Text>
+              </Description>
+              <Description>
+                <Text>Contoured leather seat</Text>
+              </Description>
+              <Description>
+                <Text>M&amp;S food sold on board flights from 11 Jan 2017 on flights tofrom London Gatwick and London Heathrow (London City &amp; Stansted to follow in Summer 2017);</Text>
+              </Description>
+            </Descriptions>
+          </PriceClass>
+          <PriceClass ObjectKey="PLUSFLEX">
+            <Name>PLUSFLEX</Name>
+            <Descriptions>
+              <Description>
+                <Text>1 x 23kg checked baggage allowance </Text>
+              </Description>
+              <Description>
+                <Text>Free seat choice from 48 hours before departure</Text>
+              </Description>
+              <Description>
+                <Text>Contoured leather seat</Text>
+              </Description>
+              <Description>
+                <Text>M&amp;S food sold on board flights from 11 Jan 2017 on flights tofrom London Gatwick and London Heathrow (London City &amp; Stansted to follow in Summer 2017);</Text>
+              </Description>
+            </Descriptions>
+          </PriceClass>
+        </PriceClassList>
+      </DataLists>
+      <Metadata>
+        <Other>
+          <OtherMetadata>
+            <CurrencyMetadatas>
+              <CurrencyMetadata MetadataKey="GBP">
+                <Decimals>2</Decimals>
+              </CurrencyMetadata>
+            </CurrencyMetadatas>
+          </OtherMetadata>
+        </Other>
+      </Metadata>
+    </AirShoppingRS>
+  </soap:Body>
+</soap:Envelope>

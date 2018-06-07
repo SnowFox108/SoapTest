@@ -95,6 +95,7 @@
     <Content Include="Xml\Post_Ba_NDC_Services.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Xml\sampleReturn.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
