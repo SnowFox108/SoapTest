@@ -16,17 +16,9 @@
               </Contact>
             </Contacts>
             <IATA_Number>91210092</IATA_Number>
-            <AgencyID>BATEST</AgencyID>
+            <AgencyID>Travel Centre Clapham Limited</AgencyID>
           </TravelAgencySender>
         </Sender>
-        <Participants>
-          <Participant>
-            <AggregatorParticipant SequenceNumber="1">
-              <Name>go4travel</Name>
-              <AggregatorID>00089751</AggregatorID>
-            </AggregatorParticipant>
-          </Participant>
-        </Participants>
       </Party>
       <Travelers>
         <Traveler>

@@ -5,7 +5,7 @@
       <TravelAgencySender>
         <Name>Travel Centre Clapham</Name>
         <IATA_Number>91210092</IATA_Number>
-        <AgencyID> Travel Centre Clapham Limited </AgencyID>
+        <AgencyID>Travel Centre Clapham Limited</AgencyID>
       </TravelAgencySender>
     </Sender>
   </Party>
