@@ -120,15 +120,20 @@ namespace ClientTest
                 }
             };
 
-            using (new OperationContextScope(client.InnerChannel))
-            {
-                // Add a HTTP Header to an outgoing request
-                HttpRequestMessageProperty requestMessage = new HttpRequestMessageProperty();
-                requestMessage.Headers["Client-key"] = "f96fe4th2dt45kd2m43ayktx";
-                requestMessage.Headers["SOAPAction"] = "AirShoppingV01";
-                OperationContext.Current.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = requestMessage;
+            //airShopping.Policies = new PoliciesPolicy[]
+            //{
+            //    new PoliciesPolicy(),
+            //};
 
-                var result = client.AirShoppingV01(new AirShoppingRQV01(airShopping));
+            //using (new OperationContextScope(client.InnerChannel))
+            //{
+            // Add a HTTP Header to an outgoing request
+            //HttpRequestMessageProperty requestMessage = new HttpRequestMessageProperty();
+            //requestMessage.Headers["Client-key"] = "f96fe4th2dt45kd2m43ayktx";
+            //requestMessage.Headers["SOAPAction"] = "AirShoppingV01";
+            //OperationContext.Current.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = requestMessage;
+            var request = new AirShoppingRQV01(airShopping);
+            var result = client.AirShoppingV01(request);
 
                 if (result.AirShoppingRS.Items.Any())
                 {
@@ -137,7 +142,7 @@ namespace ClientTest
                         var resultItem = item;
                     }
                 }
-            }
+            //}
 
             //Console.WriteLine(response);
         }
