@@ -129,6 +129,14 @@ namespace ClientTest
                 OperationContext.Current.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = requestMessage;
 
                 var result = client.AirShoppingV01(new AirShoppingRQV01(airShopping));
+
+                if (result.AirShoppingRS.Items.Any())
+                {
+                    foreach (var item in result.AirShoppingRS.Items)
+                    {
+                        var resultItem = item;
+                    }
+                }
             }
 
             //Console.WriteLine(response);
