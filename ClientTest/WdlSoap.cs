@@ -24,7 +24,7 @@ namespace ClientTest
 
             airShopping.Document = new MsgDocumentType()
             {
-                Name = "BA",
+                Name = "BA"
             };
 
             airShopping.Party = new MsgPartiesType()
@@ -33,9 +33,19 @@ namespace ClientTest
                 {
                     Item = new TravelAgencySenderType()
                     {
+                        Contacts = new ContactsContact[]
+                        {
+                            new ContactsContact()
+                            {
+                                EmailContact = new EmailType()
+                                {
+                                    Address = new EmailTypeAddress(){ Value = "ndc@ba.com" }
+                                }
+                            }, 
+                        },
                         Name = "Travel Centre Clapham",
                         IATA_Number = "91210092",
-                        AgencyID = new AgencyID_Type() {Owner = "Travel Centre Clapham Limited"}
+                        AgencyID = new AgencyID_Type() { Value = "Travel Centre Clapham Limited"}
                     }
                 }
             };
@@ -48,7 +58,7 @@ namespace ClientTest
                     {
                         new AnonymousTravelerType()
                         {
-                            PTC = new TravelerCoreTypePTC() {Quantity = "1", Value = "ADT"},
+                            PTC = new TravelerCoreTypePTC() { Value = "ADT"},
                             Age = new TravelerCoreTypeAge()
                             {
                                 Item = new TravelerCoreTypeAgeBirthDate()
@@ -131,17 +141,12 @@ namespace ClientTest
                 }
             };
 
-            airShopping.Document = new MsgDocumentType()
-            {
-                Name = "BA"
-            };
-
             using (new OperationContextScope(client.InnerChannel))
             {
                 //Add a HTTP Header to an outgoing request
                 HttpRequestMessageProperty requestMessage = new HttpRequestMessageProperty();
                 requestMessage.Headers["Client-key"] = "f96fe4th2dt45kd2m43ayktx";
-                requestMessage.Headers["SOAPAction"] = "AirShoppingV01";
+                //requestMessage.Headers["SOAPAction"] = "AirShoppingV01";
                 OperationContext.Current.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = requestMessage;
                 var request = new AirShoppingRQV01(airShopping);
                 var response = client.AirShoppingV01(request);
