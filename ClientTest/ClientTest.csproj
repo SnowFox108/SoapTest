@@ -98,17 +98,11 @@
     <Content Include="Xml\sampleReturn.xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AirShoppingRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="App.config" />
     <None Include="Connected Services\MySellingService\ClientTest.MySellingService.AirShoppingRSV01.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\MySellingService\ClientTest.MySellingService.FlightPriceRSV01.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\MySellingService\ClientTest.MySellingService.OrderViewRSV01.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\MySellingService\ClientTest.MySellingService.SeatAvailabilityRSV01.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\MySellingService\V2.wsdl" />

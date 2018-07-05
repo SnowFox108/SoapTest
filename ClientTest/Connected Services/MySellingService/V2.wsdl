@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns2="http://schemas.xmlsoap.org/wsdl/jms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:edist="http://www.iata.org/IATA/EDIST" xmlns:tns="http://www.ba.com/wsdl/slng/SellingDistributionAdapterV01" xmlns:ns0="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:ns1="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns3="http://www.w3.org/2006/05/addressing/wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://www.ba.com/wsdl/slng/SellingDistributionAdapterV01" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns2="http://schemas.xmlsoap.org/wsdl/jms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:edist="http://www.iata.org/IATA/EDIST" xmlns:tns="http://www.ba.com/wsdl/pavl/PricedAvailabilityDistributionAdapterV01" xmlns:ns0="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:ns1="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns3="http://www.w3.org/2006/05/addressing/wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://www.ba.com/wsdl/pavl/PricedAvailabilityDistributionAdapterV01" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsp:UsingPolicy xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" wsdl:Required="true" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
   <wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
     <sp:SecurityHeader MustManifestEncryption="true" MustPrepend="true" xmlns:sp="http://schemas.xmlsoap.org/ws/2002/12/secext" />
@@ -57,15 +57,6 @@
         </sp:SecurityToken>
       </wsp:All>
     </wsp:ExactlyOne>
-  </wsp:Policy>
-  <wsp:Policy wsu:Id="SeatAvailabilityV01_input_policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
-    <wsp:PolicyReference URI="#SecurityTokens" />
-  </wsp:Policy>
-  <wsp:Policy wsu:Id="OrderCreateV01_input_policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
-    <wsp:PolicyReference URI="#SecurityTokens" />
-  </wsp:Policy>
-  <wsp:Policy wsu:Id="FlightPriceV01_input_policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
-    <wsp:PolicyReference URI="#SecurityTokens" />
   </wsp:Policy>
   <wsp:Policy wsu:Id="AirShoppingV01_input_policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
     <wsp:PolicyReference URI="#SecurityTokens" />
@@ -33849,53 +33840,20 @@ Notes: Use of IATA Padis Codeset - List for data element GZO (Geographical Zone)
       </xsd:simpleType>
     </xsd:schema>
   </wsdl:types>
-  <wsdl:message name="FlightPriceRSV01">
-    <wsdl:part name="FlightPriceRSV01" element="edist:FlightPriceRS" />
-  </wsdl:message>
-  <wsdl:message name="OrderCreateRQV01">
-    <wsdl:part name="OrderCreateRQV01" element="edist:OrderCreateRQ" />
-  </wsdl:message>
-  <wsdl:message name="FlightPriceRQV01">
-    <wsdl:part name="FlightPriceRQV01" element="edist:FlightPriceRQ" />
-  </wsdl:message>
-  <wsdl:message name="SeatAvailabilityRQV01">
-    <wsdl:part name="SeatAvailabilityRQV01" element="edist:SeatAvailabilityRQ" />
-  </wsdl:message>
-  <wsdl:message name="OrderViewRSV01">
-    <wsdl:part name="OrderViewRS01" element="edist:OrderViewRS" />
-  </wsdl:message>
-  <wsdl:message name="SeatAvailabilityRSV01">
-    <wsdl:part name="SeatAvailabilityRSV01" element="edist:SeatAvailabilityRS" />
-  </wsdl:message>
   <wsdl:message name="AirShoppingRQV01">
     <wsdl:part name="AirShoppingRQV01" element="edist:AirShoppingRQ" />
   </wsdl:message>
   <wsdl:message name="AirShoppingRSV01">
     <wsdl:part name="AirShoppingRSV01" element="edist:AirShoppingRS" />
   </wsdl:message>
-  <wsdl:portType name="SellingDistributionAdapterPortType">
+  <wsdl:portType name="PricedAvailabilityDistributionAdapterPortType">
     <wsdl:operation name="AirShoppingV01">
       <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This operation will return calendar led availability.</wsdl:documentation>
       <wsdl:input name="AirShoppingRQV01" message="tns:AirShoppingRQV01" />
       <wsdl:output name="AirShoppingRSV01" message="tns:AirShoppingRSV01" />
     </wsdl:operation>
-    <wsdl:operation name="FlightPriceV01">
-      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This operation will return priced availability.</wsdl:documentation>
-      <wsdl:input name="FlightPriceRQV01" message="tns:FlightPriceRQV01" />
-      <wsdl:output name="FlightPriceRSV01" message="tns:FlightPriceRSV01" />
-    </wsdl:operation>
-    <wsdl:operation name="OrderCreateV01">
-      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This operation will create and fulfil a commercial flight booking.</wsdl:documentation>
-      <wsdl:input name="OrderCreateRQV01" message="tns:OrderCreateRQV01" />
-      <wsdl:output name="OrderViewRSV01" message="tns:OrderViewRSV01" />
-    </wsdl:operation>
-    <wsdl:operation name="SeatAvailabilityV01">
-      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This operation will return lead-in prices or a price seat map response.</wsdl:documentation>
-      <wsdl:input name="SeatAvailabilityRQV01" message="tns:SeatAvailabilityRQV01" />
-      <wsdl:output name="SeatAvailabilityRSV01" message="tns:SeatAvailabilityRSV01" />
-    </wsdl:operation>
   </wsdl:portType>
-  <wsdl:binding name="SellingDistributionAdapterSoap11" type="tns:SellingDistributionAdapterPortType">
+  <wsdl:binding name="PricedAvailabilityDistributionAdapterSoap11" type="tns:PricedAvailabilityDistributionAdapterPortType">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="AirShoppingV01">
       <soap:operation soapAction="AirShoppingV01" />
@@ -33907,40 +33865,10 @@ Notes: Use of IATA Padis Codeset - List for data element GZO (Geographical Zone)
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="FlightPriceV01">
-      <soap:operation soapAction="FlightPriceV01" />
-      <wsdl:input name="FlightPriceRQV01">
-        <soap:body use="literal" />
-        <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#FlightPriceV01_input_policy" />
-      </wsdl:input>
-      <wsdl:output name="FlightPriceRSV01">
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="OrderCreateV01">
-      <soap:operation soapAction="OrderCreateV01" />
-      <wsdl:input name="OrderCreateRQV01">
-        <soap:body use="literal" />
-        <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#OrderCreateV01_input_policy" />
-      </wsdl:input>
-      <wsdl:output name="OrderViewRSV01">
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SeatAvailabilityV01">
-      <soap:operation soapAction="SeatAvailabilityV01" />
-      <wsdl:input name="SeatAvailabilityRQV01">
-        <soap:body use="literal" />
-        <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#SeatAvailabilityV01_input_policy" />
-      </wsdl:input>
-      <wsdl:output name="SeatAvailabilityRSV01">
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
   </wsdl:binding>
-  <wsdl:service name="SellingDistributionAdapter">
-    <wsdl:port name="SellingDistributionAdapterSoap11" binding="tns:SellingDistributionAdapterSoap11">
-      <soap:address location="https://test.api.ba.com/sc4/com.ba.newdistcap.SellingDistributionAdapterV01.ap.3" />
+  <wsdl:service name="PricedAvailabilityDistributionAdapter">
+    <wsdl:port name="PricedAvailabilityDistributionAdapterSoap11" binding="tns:PricedAvailabilityDistributionAdapterSoap11">
+      <soap:address location="https://test.api.ba.com/sc4/com.ba.newdistcap.PricedAvailabilityDistributionAdapterV01.ap.3" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

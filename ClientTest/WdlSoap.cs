@@ -15,8 +15,17 @@ namespace ClientTest
         public WdlSoap()
         {
 
-            var client = new MySellingService.SellingDistributionAdapterPortTypeClient();
+            var client =
+                new MySellingService.
+                    PricedAvailabilityDistributionAdapterPortTypeClient(); // SellingDistributionAdapterPortTypeClient();
             var airShopping = new MySellingService.AirShoppingRQ();
+
+            airShopping.Version = "16.1";
+
+            airShopping.Document = new MsgDocumentType()
+            {
+                Name = "BA",
+            };
 
             airShopping.Party = new MsgPartiesType()
             {
@@ -26,7 +35,7 @@ namespace ClientTest
                     {
                         Name = "Travel Centre Clapham",
                         IATA_Number = "91210092",
-                        AgencyID = new AgencyID_Type() { Owner = "Travel Centre Clapham Limited"}
+                        AgencyID = new AgencyID_Type() {Owner = "Travel Centre Clapham Limited"}
                     }
                 }
             };
@@ -39,15 +48,17 @@ namespace ClientTest
                     {
                         new AnonymousTravelerType()
                         {
-                            PTC = new TravelerCoreTypePTC(){ Quantity = "1", Value = "ADT"},
-                            Age = new TravelerCoreTypeAge() {Item = new TravelerCoreTypeAgeBirthDate()
+                            PTC = new TravelerCoreTypePTC() {Quantity = "1", Value = "ADT"},
+                            Age = new TravelerCoreTypeAge()
+                            {
+                                Item = new TravelerCoreTypeAgeBirthDate()
                                 {
-                                   Value  = new DateTime(1988,06,07)
+                                    Value = new DateTime(1988, 06, 07)
                                 }
                             }
                         }
                     }
-                }                
+                }
             };
 
             airShopping.CoreQuery = new AirShoppingRQCoreQuery()
@@ -64,14 +75,14 @@ namespace ClientTest
                                 {
                                     Value = "LHR"
                                 },
-                                Date = new DateTime(2018,08,26)                                
+                                Date = new DateTime(2018, 08, 26)
                             },
                             Arrival = new FlightArrivalType()
                             {
                                 AirportCode = new FlightArrivalTypeAirportCode()
                                 {
                                     Value = "DME"
-                                }                            
+                                }
                             }
                         },
                         new AirShopReqAttributeQueryTypeOriginDestination()
@@ -82,7 +93,7 @@ namespace ClientTest
                                 {
                                     Value = "DME"
                                 },
-                                Date = new DateTime(2018,09,26)
+                                Date = new DateTime(2018, 09, 26)
                             },
                             Arrival = new FlightArrivalType()
                             {
@@ -91,7 +102,7 @@ namespace ClientTest
                                     Value = "LHR"
                                 }
                             }
-                        }, 
+                        },
                     }
                 }
             };
@@ -105,7 +116,7 @@ namespace ClientTest
                         new FarePreferencesTypeType()
                         {
                             Code = "759"
-                        }, 
+                        },
                     }
                 },
                 CabinPreferences = new CabinPreferencesType()
@@ -115,34 +126,34 @@ namespace ClientTest
                         new CabinType()
                         {
                             Code = "5"
-                        }, 
+                        },
                     }
                 }
             };
 
-            //airShopping.Policies = new PoliciesPolicy[]
-            //{
-            //    new PoliciesPolicy(),
-            //};
+            airShopping.Document = new MsgDocumentType()
+            {
+                Name = "BA"
+            };
 
-            //using (new OperationContextScope(client.InnerChannel))
-            //{
-            // Add a HTTP Header to an outgoing request
-            //HttpRequestMessageProperty requestMessage = new HttpRequestMessageProperty();
-            //requestMessage.Headers["Client-key"] = "f96fe4th2dt45kd2m43ayktx";
-            //requestMessage.Headers["SOAPAction"] = "AirShoppingV01";
-            //OperationContext.Current.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = requestMessage;
-            var request = new AirShoppingRQV01(airShopping);
-            var result = client.AirShoppingV01(request);
+            using (new OperationContextScope(client.InnerChannel))
+            {
+                //Add a HTTP Header to an outgoing request
+                HttpRequestMessageProperty requestMessage = new HttpRequestMessageProperty();
+                requestMessage.Headers["Client-key"] = "f96fe4th2dt45kd2m43ayktx";
+                requestMessage.Headers["SOAPAction"] = "AirShoppingV01";
+                OperationContext.Current.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = requestMessage;
+                var request = new AirShoppingRQV01(airShopping);
+                var response = client.AirShoppingV01(request);
 
-                if (result.AirShoppingRS.Items.Any())
+                if (response.AirShoppingRS.Items.Any())
                 {
-                    foreach (var item in result.AirShoppingRS.Items)
+                    foreach (var item in response.AirShoppingRS.Items)
                     {
                         var resultItem = item;
                     }
                 }
-            //}
+            }
 
             //Console.WriteLine(response);
         }
