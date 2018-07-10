@@ -33868,7 +33868,7 @@ Notes: Use of IATA Padis Codeset - List for data element GZO (Geographical Zone)
   </wsdl:binding>
   <wsdl:service name="PricedAvailabilityDistributionAdapter">
     <wsdl:port name="PricedAvailabilityDistributionAdapterSoap11" binding="tns:PricedAvailabilityDistributionAdapterSoap11">
-      <soap:address location="https://test.api.ba.com/sc4/com.ba.newdistcap.PricedAvailabilityDistributionAdapterV01.ap.3" />
+      <soap:address location="https://test.api.ba.com/selling-distribution/AirShopping/V2" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
