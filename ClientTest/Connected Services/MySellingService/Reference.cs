@@ -323,7 +323,7 @@ namespace ClientTest.MySellingService {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Policies", typeof(Policies), Order=9)]
+        [System.Xml.Serialization.XmlElementAttribute("Policies", typeof(PoliciesPolicy), Order=9)]
         public PoliciesPolicy[] Policies {
             get {
                 return this.policiesField;
