@@ -78,9 +78,16 @@ namespace ClientTest
         }
         private string CreateXmlStringFromObject(Party party)
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(Party));
+            var soap = new SoapEnvelope()
+            {
+                body = new ResponseBody<Party>
+                {
+                    Party = party
+                }
+            };
+            XmlSerializer serializer = new XmlSerializer(typeof(SoapEnvelope));
             var writer = new StringWriter();
-            serializer.Serialize(writer, party);
+            serializer.Serialize(writer, soap);
             return writer.ToString();
         }
 

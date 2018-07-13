@@ -72,7 +72,9 @@
     <Compile Include="Entities\EmailContact.cs" />
     <Compile Include="Entities\Participant.cs" />
     <Compile Include="Entities\Party.cs" />
+    <Compile Include="Entities\ResponseBody.cs" />
     <Compile Include="Entities\Sender.cs" />
+    <Compile Include="Entities\SoapEnvelope.cs" />
     <Compile Include="Entities\TravelAgencySender.cs" />
     <Compile Include="SearchDto.cs" />
     <Compile Include="XmlFlieLoader.cs" />
