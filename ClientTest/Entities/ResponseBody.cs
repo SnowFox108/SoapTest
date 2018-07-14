@@ -11,6 +11,6 @@ namespace ClientTest.Entities
     public class ResponseBody<T>
     {
         [XmlElement(Namespace = "http://xmlns.xyz.com/webservice/version")]
-        public T Party { get; set; }
+        public T AirShoppingRQ { get; set; }
     }
 }

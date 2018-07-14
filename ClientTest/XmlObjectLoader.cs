@@ -12,9 +12,9 @@ namespace ClientTest
     {
         public XmlObjectLoader()
         {
-            var party = CreateParty();
+            var airShopping = CreateAirShopping();
 
-            var xml = CreateXmlStringFromObject(party);
+            var xml = CreateXmlStringFromObject(airShopping);
 
             HttpWebRequest request = CreateWebRequest();
 
@@ -38,51 +38,62 @@ namespace ClientTest
             }
         }
 
-        private Party CreateParty()
+
+        private AirShoppingRQ CreateAirShopping()
         {
-            return new Party()
+            return new AirShoppingRQ()
             {
-                Sender = new Sender()
+                Document = new Document()
                 {
-                    TravelAgencySender = new TravelAgencySender()
+                    Name = "BA"
+                },
+                Party = new Party()
+                {
+                    Sender = new Sender()
                     {
-                        Name = "Testing",
-                        IATA_Number = "91210092",
-                        AgencyID = "f96fe4th2dt45kd2m43ayktx",
-                        Contacts = new List<Contact>()
+                        TravelAgencySender = new TravelAgencySender()
                         {
-                            new Contact()
+                            Name = "Testing",
+                            IATA_Number = "91210092",
+                            AgencyID = "f96fe4th2dt45kd2m43ayktx",
+                            Contacts = new List<Contact>()
                             {
-                                EmailContact = new EmailContact()
+                                new Contact()
                                 {
-                                    Address = "agentemail@admin.com"
+                                    EmailContact = new EmailContact()
+                                    {
+                                        Address = "agentemail@admin.com"
+                                    }
                                 }
                             }
                         }
-                    }
+                    },
                 },
-                Participants = new List<Participant>()
+                Travelers = new List<Traveler>()
                 {
-                    new Participant()
+                    new Traveler()
                     {
-                        AggregatorParticipant = new AggregatorParticipant()
+                        AnonymousTraveler = new AnonymousTraveler()
                         {
-                            SequenceNumber = "123",
-                            Name = "Travelco",
-                            AggregatorID = "00123456"
+                            PTC = "ADT",
+                            Age = new Age()
+                            {
+                                BirthDate = "1988-06-07"
+                            }
                         }
                     }
                 }
             };
 
         }
-        private string CreateXmlStringFromObject(Party party)
+
+        private string CreateXmlStringFromObject(AirShoppingRQ airShopping)
         {
             var soap = new SoapEnvelope()
             {
-                body = new ResponseBody<Party>
+                body = new ResponseBody<AirShoppingRQ>
                 {
-                    Party = party
+                    AirShoppingRQ = airShopping
                 }
             };
             XmlSerializer serializer = new XmlSerializer(typeof(SoapEnvelope));

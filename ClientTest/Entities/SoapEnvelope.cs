@@ -18,7 +18,7 @@ namespace ClientTest.Entities
         [XmlAttribute(AttributeName = "xsi", Namespace = "http://www.w3.org/2001/XMLSchema-instance")]
         public string xsi { get; set; }
         [XmlElement(ElementName = "Body", Namespace = "http://schemas.xmlsoap.org/soap/envelope/")]
-        public ResponseBody<Party> body { get; set; }
+        public ResponseBody<AirShoppingRQ> body { get; set; }
         [XmlNamespaceDeclarations]
         public XmlSerializerNamespaces xmlns = new XmlSerializerNamespaces();
         public SoapEnvelope()
