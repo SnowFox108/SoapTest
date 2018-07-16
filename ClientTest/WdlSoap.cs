@@ -79,7 +79,7 @@ namespace ClientTest
                     {
                         new AirShopReqAttributeQueryTypeOriginDestination()
                         {
-                            Departure = new Departure()
+                            Departure = new MySellingService.Departure()
                             {
                                 AirportCode = new FlightDepartureTypeAirportCode()
                                 {
@@ -97,7 +97,7 @@ namespace ClientTest
                         },
                         new AirShopReqAttributeQueryTypeOriginDestination()
                         {
-                            Departure = new Departure()
+                            Departure = new MySellingService.Departure()
                             {
                                 AirportCode = new FlightDepartureTypeAirportCode()
                                 {
@@ -131,9 +131,9 @@ namespace ClientTest
                 },
                 CabinPreferences = new CabinPreferencesType()
                 {
-                    CabinType = new CabinType[]
+                    CabinType = new MySellingService.CabinType[]
                     {
-                        new CabinType()
+                        new MySellingService.CabinType()
                         {
                             Code = "5"
                         },

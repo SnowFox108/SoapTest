@@ -10,7 +10,7 @@ namespace ClientTest.Entities
     [XmlRoot(ElementName = "Body", Namespace = "http://schemas.xmlsoap.org/soap/envelope/")]
     public class ResponseBody<T>
     {
-        [XmlElement(Namespace = "http://xmlns.xyz.com/webservice/version")]
+        [XmlElement(Namespace = "http://www.iata.org/IATA/EDIST")]
         public T AirShoppingRQ { get; set; }
     }
 }

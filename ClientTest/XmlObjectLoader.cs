@@ -5,6 +5,7 @@ using System.Net;
 using System.Text;
 using System.Xml.Serialization;
 using ClientTest.Entities;
+using Type = ClientTest.Entities.Type;
 
 namespace ClientTest
 {
@@ -81,6 +82,56 @@ namespace ClientTest
                                 BirthDate = "1988-06-07"
                             }
                         }
+                    }
+                },
+                CoreQuery = new CoreQuery()
+                {
+                    OriginDestinations = new List<OriginDestination>()
+                    {
+                        new OriginDestination()
+                        {
+                            Departure = new Departure()
+                            {
+                                AirportCode = "LHR",
+                                Date = "2018-08-26"
+                            },
+                            Arrival = new Arrival()
+                            {
+                                AirportCode = "DME"
+                            }
+                        },
+                        new OriginDestination()
+                        {
+                            Departure = new Departure()
+                            {
+                                AirportCode = "DME",
+                                Date = "2018-08-29"
+                            },
+                            Arrival = new Arrival()
+                            {
+                                AirportCode = "LHR"
+                            }
+                        }
+                    }
+                },
+                Preference = new Preference()
+                {
+                    FarePreferences = new FarePreferences()
+                    {
+                        Types = new List<Type>()
+                        {
+                            new Type()
+                            {
+                                Code = "759"
+                            }
+                        }
+                    },
+                    CabinPreferences = new CabinPreferences()
+                    {
+                       CabinType = new CabinType
+                       {
+                           Code = "5"
+                       }
                     }
                 }
             };

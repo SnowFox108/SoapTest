@@ -23,7 +23,7 @@ namespace ClientTest.Entities
         public XmlSerializerNamespaces xmlns = new XmlSerializerNamespaces();
         public SoapEnvelope()
         {
-            xmlns.Add("soapenv", "http://schemas.xmlsoap.org/soap/envelope/");
+            xmlns.Add("soap", "http://schemas.xmlsoap.org/soap/envelope/");
         }
     }
 }
