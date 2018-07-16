@@ -105,6 +105,9 @@
     <Content Include="Xml\FlighPriceRS3.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Xml\ObjGenerate.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Xml\Post_Ba_NDC_Services_New.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
