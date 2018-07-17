@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
+using System.Xml;
 using System.Xml.Serialization;
 using ClientTest.Entities;
 using Type = ClientTest.Entities.Type;
@@ -147,10 +148,21 @@ namespace ClientTest
                     AirShoppingRQ = airShopping
                 }
             };
+
             XmlSerializer serializer = new XmlSerializer(typeof(SoapEnvelope));
-            var writer = new StringWriter();
-            serializer.Serialize(writer, soap);
-            return writer.ToString();
+            var settings = new XmlWriterSettings();
+            settings.Indent = true;
+            settings.OmitXmlDeclaration = true;
+
+            using (var stream = new StringWriter())
+            using (var writer = XmlWriter.Create(stream, settings))
+            {
+                serializer.Serialize(writer, soap);
+                return stream.ToString();
+            }
+            //var writer = new StringWriter();
+            //serializer.Serialize(writer, soap);
+            //return writer.ToString();
         }
 
         private HttpWebRequest CreateWebRequest()
