@@ -54,7 +54,10 @@
     <Content Include="Xml\AirShoppingRQ0.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Xml\AirShoppingRS1.xml">
+    <Content Include="Xml\Return\Errors.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\Return\AirShoppingRS1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Xml\AirShopping_Corporate_TMC.xml">
