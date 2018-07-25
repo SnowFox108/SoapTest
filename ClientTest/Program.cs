@@ -15,6 +15,7 @@ namespace ClientTest
             //new XmlFlieLoader();
             new XmlObjectLoader();
             //new WdlSoap();
+            //new SoapXmlReader();
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();

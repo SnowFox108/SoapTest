@@ -57,7 +57,7 @@
     <Content Include="Xml\Return\Errors.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Xml\Return\AirShoppingRS1.xml">
+    <Content Include="Xml\Return\AirShoppingRS.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Xml\AirShopping_Corporate_TMC.xml">
@@ -87,6 +87,9 @@
     <Compile Include="Entities\Participant.cs" />
     <Compile Include="Entities\Party.cs" />
     <Compile Include="Entities\Preference.cs" />
+    <Compile Include="Entities\Receiving\AirShoppingRS.cs" />
+    <Compile Include="Entities\Receiving\Error.cs" />
+    <Compile Include="Entities\Receiving\Success.cs" />
     <Compile Include="Entities\ResponseBody.cs" />
     <Compile Include="Entities\Sender.cs" />
     <Compile Include="Entities\SoapEnvelope.cs" />
@@ -94,6 +97,7 @@
     <Compile Include="Entities\Traveler.cs" />
     <Compile Include="Entities\Type.cs" />
     <Compile Include="SearchDto.cs" />
+    <Compile Include="SoapXmlReader.cs" />
     <Compile Include="XmlFlieLoader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -159,5 +163,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
