@@ -17,5 +17,7 @@ namespace ClientTest.Entities.Receiving
         public Success Success { get; set; }
 
         public Document Document { get; set; }
+        public ShoppingResponseID ShoppingResponseID { get; set; }
+        public OffersGroup OffersGroup { get; set; }
     }
 }
