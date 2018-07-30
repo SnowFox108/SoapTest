@@ -19,5 +19,6 @@ namespace ClientTest.Entities.Receiving
         public Document Document { get; set; }
         public ShoppingResponseID ShoppingResponseID { get; set; }
         public OffersGroup OffersGroup { get; set; }
+        public DataLists DataLists { get; set; }
     }
 }

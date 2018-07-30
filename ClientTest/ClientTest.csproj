@@ -91,6 +91,9 @@
     <Compile Include="Entities\Receiving\AirlineOffers.cs" />
     <Compile Include="Entities\Receiving\AirShoppingRS.cs" />
     <Compile Include="Entities\Receiving\BaseAmount.cs" />
+    <Compile Include="Entities\Receiving\DataLists.cs" />
+    <Compile Include="Entities\Receiving\Description.cs" />
+    <Compile Include="Entities\Receiving\Disclosures.cs" />
     <Compile Include="Entities\Receiving\Error.cs" />
     <Compile Include="Entities\Receiving\OfferPrice.cs" />
     <Compile Include="Entities\Receiving\OffersGroup.cs" />
