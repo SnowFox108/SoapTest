@@ -20,5 +20,6 @@ namespace ClientTest.Entities.Receiving
         public ShoppingResponseID ShoppingResponseID { get; set; }
         public OffersGroup OffersGroup { get; set; }
         public DataLists DataLists { get; set; }
+        public Metadata Metadata { get; set; }
     }
 }

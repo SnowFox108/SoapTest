@@ -5,13 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace ClientTest.Entities
+namespace ClientTest.Entities.Receiving
 {
-    public class AnonymousTraveler
+    public class PriceClass
     {
         [XmlAttribute]
         public string ObjectKey { get; set; }
-        public string PTC { get; set; }
-        public Age Age { get; set; }
+
+        public string Name { get; set; }
+        public List<Description> Descriptions { get; set; }
     }
 }

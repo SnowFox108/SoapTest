@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace ClientTest.Entities
+namespace ClientTest.Entities.Receiving
 {
-    public class AnonymousTraveler
+    public class CurrencyMetadata
     {
         [XmlAttribute]
-        public string ObjectKey { get; set; }
-        public string PTC { get; set; }
-        public Age Age { get; set; }
+        public string MetadataKey { get; set; }
+
+        public int Decimals { get; set; }
     }
 }
